@@ -1,8 +1,30 @@
 API REST - Sistema de Gerenciamento de Usuários
-<img https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white />
 <img 
-https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white
-https://img.shields.io/badge/H2_Database-1.4.200-blue?style=for-the-badge
+    align="left" 
+    alt="Git" 
+    title="Git"
+    width="120px" 
+    style="padding-right: 10px;" 
+    src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" 
+/>
+<img 
+    align="left" 
+    alt="Git" 
+    title="Git"
+    width="80px" 
+    style="padding-right: 10px;" 
+    src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" 
+/>
+<img 
+    align="left" 
+    alt="Git" 
+    title="Git"
+    width="120px" 
+    style="padding-right: 10px;" 
+    src="https://img.shields.io/badge/H2_Database-1.4.200-blue?style=for-the-badge" 
+/>
+
+
 
 Uma API REST simples desenvolvida em Java com Spring Boot para operações CRUD de usuários.
 
