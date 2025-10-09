@@ -29,8 +29,9 @@ API REST - Sistema de Gerenciamento de Usuários
 Uma API REST simples desenvolvida em Java com Spring Boot para operações CRUD de usuários.
 
 📋 Índice
+-----------------------------------------------------------
 Visão Geral
-
+-----------------------------------------------------------
 Funcionalidades
 
 Tecnologias
@@ -49,8 +50,10 @@ Banco de Dados
 
 🚀 Visão Geral
 API RESTful que fornece operações básicas de CRUD (Create, Read, Update, Delete) para gerenciamento de usuários. Desenvolvida como exemplo didático para demonstrar a criação de APIs com Spring Boot.
+-----------------------------------------------------------
 
 ✨ Funcionalidades
+-----------------------------------------------------------
 ✅ CREATE - Criar novos usuários
 
 ✅ READ - Listar e buscar usuários
@@ -65,7 +68,7 @@ API RESTful que fornece operações básicas de CRUD (Create, Read, Update, Dele
 
 🛠️ Tecnologias
 Java 17
-
+-----------------------------------------------------------
 Spring Boot 3.1+
 
 Spring Data JPA
@@ -75,8 +78,24 @@ H2 Database (banco em memória)
 Maven (gerenciamento de dependências)
 
 📋 Pré-requisitos
+
 Java 17 ou superior
 
 Maven 3.6+
 
 Git
+🗂️ Estrutura do Projeto
+-----------------------------------------------------------
+
+src/
+├── main/
+│   ├── java/com/example/demo/
+│   │   ├── controller/     # Controladores REST
+│   │   ├── model/          # Entidades JPA
+│   │   ├── repository/     # Interfaces de dados
+│   │   ├── service/        # Lógica de negócio
+│   │   └── config/         # Configurações
+│   └── resources/
+│       ├── application.properties
+│       └── static/
+└── test/                   # Testes unitários
