@@ -99,3 +99,117 @@ src/
 │       ├── application.properties
 │       └── static/
 └── test/                   # Testes unitários
+
+
+.........................................................................
+
+
+API REST Simple para Gestão de Usuários
+Una API REST simple desarrollada en Java con Spring Boot para operaciones CRUD de usuarios.
+-------------------------------------------------------------------------------------------
+📋 Índice
+-------------------------------------------------------------------------------------------
+Visión General
+
+Funcionalidades
+
+Tecnologías Utilizadas
+
+Requisitos Previos
+
+Instalación y Ejecución
+
+Puntos Finales
+
+Ejemplos de Uso
+
+Estructura del Proyecto
+
+Base de Datos
+
+🚀 Visión General
+API RESTful que proporciona operaciones básicas CRUD (Crear, Leer, Actualizar, Eliminar) para la gestión de usuarios. Desarrollada como ejemplo didáctico para demostrar la creación de APIs con Spring Boot.
+----------------------------------------------------------------------------------------
+✨ Funcionalidades
+✅ CREAR - Crear nuevos usuarios
+✅ LEER - Listar y buscar usuarios
+✅ ACTUALIZAR - Actualizar datos de usuarios
+✅ ELIMINAR - Eliminar usuarios
+✅ Validación - Email único y campos obligatorios
+✅ Base en Memoria - Base de datos H2 para desarrollo
+
+🛠️ Tecnologías
+
+Java 17 - Lenguaje de programación
+
+Spring Boot 3.1+ - Framework principal
+
+Spring Data JPA - Acceso a datos
+
+Base de datos H2 (base en memoria) - Base de datos para desarrollo
+
+Maven - Gestión de dependencias
+
+📋 Requisitos Previos
+
+Java 17 o superior
+
+Maven 3.6+
+
+IDE compatible (IntelliJ, Eclipse, VS Code)
+
+🎯 Instalación y Ejecución
+
+bash
+# Clonar el proyecto
+git clone [url-del-repositorio]
+
+# Navegar al directorio del proyecto
+cd api-usuarios-springboot
+
+# Construir el proyecto
+mvn clean install
+
+# Ejecutar la aplicación
+mvn spring-boot:run
+🔗 Puntos Finales
+
+text
+GET    /api/usuarios      - Listar todos los usuarios
+GET    /api/usuarios/{id} - Obtener usuario por ID
+POST   /api/usuarios      - Crear nuevo usuario
+PUT    /api/usuarios/{id} - Actualizar usuario
+DELETE /api/usuarios/{id} - Eliminar usuario
+
+
+📊 Base de Datos
+
+H2 Database: Base de datos en memoria para desarrollo
+
+Consola H2: Disponible en http://localhost:8080/h2-console
+
+JDBC URL: jdbc:h2:mem:testdb
+
+Usuario: sa
+
+Contraseña: (vacío)
+
+🏗️ Estructura del Proyecto
+
+text
+src/
+├── main/
+│   ├── java/
+│   │   └── com/
+│   │       └── ejemplo/
+│   │           └── api/
+│   │               ├── controller/    # Controladores REST
+│   │               ├── model/         # Entidades
+│   │               ├── repository/    # Repositorios JPA
+│   │               ├── service/       # Lógica de negocio
+│   │               └── ApiApplication.java
+│   └── resources/
+│       ├── application.properties     # Configuración
+│       └── data.sql                   # Datos iniciales (opcional)
+└── test/                              # Pruebas unitarias
+
